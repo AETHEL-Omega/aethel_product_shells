@@ -1,7 +1,7 @@
 name: aethel_product_shells
 description: Shared Ω workspace UI and read-plane models for AETHEL product shells.
 publish_to: 'none'
-version: 0.1.3
+version: 0.1.4
 
 environment:
   sdk: '>=3.5.0 <4.0.0'

@@ -46,5 +46,6 @@ Local package development: copy `pubspec_overrides.yaml.example` to `pubspec_ove
 | v0.1.1 | P57 library graph |
 | v0.1.2 | P58 assistant evidence |
 | v0.1.3 | P59 omnibar evidence |
+| v0.1.4 | P60 knowledge stack offline hint |
 
 See `aethel-omega/docs/dev/CURRENT_SLICE.md` for active slice status.

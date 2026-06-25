@@ -177,6 +177,8 @@ class _OmegaWorkspacePanelBodyState extends State<OmegaWorkspacePanelBody> {
             [
               'Actor: ${widget.productActor}',
               'API: ${widget.reachable ? "reachable" : "offline"}',
+              if (!widget.reachable)
+                'Bootstrap: cd aethel-omega && pnpm knowledge:stack bootstrap',
               if (_workspace != null) ...[
                 'Source: ${_workspace!.sourceSpaceId}',
                 'Welt: ${_workspace!.weltSpaceId}',
