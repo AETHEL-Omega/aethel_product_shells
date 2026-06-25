@@ -21,10 +21,16 @@ Sibling layout with browser/terminal (`../aethel_product_shells`) matches `AETHE
 
 ## Consumers
 
+Published dependency (CI + clean clones):
+
 ```yaml
 dependencies:
   aethel_product_shells:
-    path: ../aethel_product_shells
+    git:
+      url: https://github.com/AETHEL-Omega/aethel_product_shells.git
+      ref: v0.1.0
 ```
+
+Local package development: copy `pubspec_overrides.yaml.example` to `pubspec_overrides.yaml` in browser/terminal and use `path: ../aethel_product_shells`.
 
 See `aethel-omega/docs/dev/CURRENT_SLICE.md` for active slice status.
