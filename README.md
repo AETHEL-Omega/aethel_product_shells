@@ -13,11 +13,16 @@ git clone https://github.com/AETHEL-Omega/aethel_product_shells.git
 
 Sibling layout with browser/terminal (`../aethel_product_shells`) matches `AETHEL-Omega.code-workspace`.
 
-## Contents
+## Contents (v0.1.3)
 
-- `OmegaReadPlanePort` — shared HTTP read/propose surface
-- Read models (`OmegaEvidenceRef`, `OmegaInquiryChain`, …)
-- `OmegaWorkspacePanelBody` / `OmegaEntityInspectorBody` — Material widgets
+| Area | Symbols |
+|------|---------|
+| Port | `OmegaReadPlanePort` |
+| Models | `OmegaEvidenceRef`, `OmegaInquiryChain`, `OmegaLibraryReceiptNode`, `OmegaOmnibarEvidenceSuggestion`, … |
+| Widgets | `OmegaWorkspacePanelBody`, `OmegaEntityInspectorBody` |
+| Logic | `OmegaInquiryLogic`, `OmegaLibraryGraph`, `AssistantOmegaEvidence`, `OmnibarOmegaEvidence`, `OmegaNavigableUrl`, clipboard + inspector format |
+
+Browser-only ingest types (`OmegaIngestReceipt`, `OmegaNodeReceipt`) stay in `aethelBrowser`.
 
 ## Consumers
 
@@ -28,9 +33,18 @@ dependencies:
   aethel_product_shells:
     git:
       url: https://github.com/AETHEL-Omega/aethel_product_shells.git
-      ref: v0.1.0
+      ref: v0.1.3
 ```
 
 Local package development: copy `pubspec_overrides.yaml.example` to `pubspec_overrides.yaml` in browser/terminal and use `path: ../aethel_product_shells`.
+
+## Tags
+
+| Tag | Slice |
+|-----|-------|
+| v0.1.0 | P55 workspace + inspector |
+| v0.1.1 | P57 library graph |
+| v0.1.2 | P58 assistant evidence |
+| v0.1.3 | P59 omnibar evidence |
 
 See `aethel-omega/docs/dev/CURRENT_SLICE.md` for active slice status.
