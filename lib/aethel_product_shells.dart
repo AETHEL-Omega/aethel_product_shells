@@ -1,5 +1,6 @@
 library;
 
+export 'src/logic/assistant_omega_evidence.dart';
 export 'src/logic/omega_clipboard.dart';
 export 'src/logic/omega_inquiry_logic.dart';
 export 'src/logic/omega_inspector_format.dart';
