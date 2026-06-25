@@ -1,5 +1,8 @@
 library;
 
+export 'src/logic/omnibar_omega_evidence.dart';
+export 'src/logic/omega_navigable_url.dart';
+export 'src/models/omega_omnibar_evidence_suggestion.dart';
 export 'src/logic/assistant_omega_evidence.dart';
 export 'src/logic/omega_clipboard.dart';
 export 'src/logic/omega_inquiry_logic.dart';
